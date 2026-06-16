@@ -10,12 +10,11 @@ This repository contains source code and supplementary information for the evalu
 4. Discrimination analysis
 5. Model recalibrations including net benefit and calibration with bootstrapping
 6. External validation of recalibrated models in independent cohort
-7. PLATO (Personalized liver metastasis risk in oncology) - Online tool
-
-8. Table 1: Example of clinical variables required for running all the code.
-9. Table 2: Model specifications of recalibrated models.
+7. Table 1: Example of clinical variables required for running all the code.
 
 The web calculator **PLATO** is available at www.plato-calc.org
+The source code for PLATO is available at https://github.com/vilja-a/PLATO
+
 #
 
 **Evaluated risk scores:**
