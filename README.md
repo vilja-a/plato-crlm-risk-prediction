@@ -2,7 +2,10 @@
 
 ## Individualized Recurrence Prediction After Colorectal Cancer Liver Metastasis Resection
 
-This repository contains source code and supplementary information for the evaluation of clinical risk scores predicting recurrence after colorectal cancer liver metastasis resection, including:
+This repository contains source code for the evaluation of clinical risk scores predicting recurrence after colorectal cancer liver metastasis resection.
+
+
+The folder /source_code/ contains the code for clinical risk score evalaluation and description of data
 
 1. Set-up and read-in the data
 2. Data description: summary table, survival descriptions, cumulative incidence plots, competing risks
@@ -10,13 +13,19 @@ This repository contains source code and supplementary information for the evalu
 4. Discrimination analysis
 5. Model recalibrations including net benefit and calibration with bootstrapping
 6. External validation of recalibrated models in independent cohort
-7. Table 1: Example of clinical variables required for running all the code.
+7. Description of data required for running all the code
 
 #
 
+# PLATO - Personalized Liver metastases risk AssessmenT in Oncology
+
+
+PLATO estimates relapse risk after colorectal cancer liver metastasis using published risk scores.
+
 The web calculator **PLATO** is available at www.plato-calc.org
 
-The source code for PLATO is available at https://github.com/vilja-a/PLATO
+  1. The code of the Shiny app at /plato_app/app.R ; the app can be run locally using RStudio.
+  2. The data and images needed for running the app are located in the folder /plato_app/.
 
 #
 
