@@ -14,6 +14,7 @@ The folder /source_code/ contains the code for clinical risk score evalaluation 
 5. Model recalibrations including net benefit and calibration with bootstrapping
 6. External validation of recalibrated models in independent cohort
 7. Description of data required for running all the code
+8. Model coefficients of recalibrated models
 
 #
 
